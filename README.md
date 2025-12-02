@@ -22,7 +22,20 @@ This skill ensures Claude Code generates GTM-compatible code every time, followi
 
 ## Installation
 
-### Option 1: Global Installation (All Projects)
+### Option 1: Plugin Installation (Recommended)
+
+```bash
+/plugin install https://github.com/ekusiadadus/claude-skill-gtm-javascript
+```
+
+Or add as a marketplace and install:
+
+```bash
+/plugin marketplace add ekusiadadus/claude-skill-gtm-javascript
+/plugin install gtm-javascript@ekusiadadus-claude-skill-gtm-javascript
+```
+
+### Option 2: Global Installation (All Projects)
 
 ```bash
 # Clone to your home directory
@@ -33,7 +46,7 @@ mkdir -p ~/.claude/skills/gtm-javascript
 cp -r skills/gtm-javascript/* ~/.claude/skills/gtm-javascript/
 ```
 
-### Option 2: Project-Specific Installation
+### Option 3: Project-Specific Installation
 
 ```bash
 # Clone into your project

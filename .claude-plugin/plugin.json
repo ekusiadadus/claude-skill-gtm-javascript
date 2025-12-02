@@ -1,0 +1,12 @@
+{
+  "name": "gtm-javascript",
+  "description": "Generate ES5-compliant JavaScript for Google Tag Manager Custom HTML tags",
+  "version": "1.0.0",
+  "author": {
+    "name": "ekusiadadus"
+  },
+  "homepage": "https://github.com/ekusiadadus/claude-skill-gtm-javascript",
+  "repository": "https://github.com/ekusiadadus/claude-skill-gtm-javascript",
+  "license": "MIT",
+  "keywords": ["gtm", "google-tag-manager", "javascript", "es5", "analytics", "ga4"]
+}
