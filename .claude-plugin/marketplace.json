@@ -1,0 +1,14 @@
+{
+  "name": "claude-skill-gtm-javascript",
+  "owner": {
+    "name": "ekusiadadus"
+  },
+  "plugins": [
+    {
+      "name": "gtm-javascript",
+      "source": "./",
+      "description": "Generate ES5-compliant JavaScript for GTM Custom HTML tags",
+      "version": "1.0.0"
+    }
+  ]
+}
